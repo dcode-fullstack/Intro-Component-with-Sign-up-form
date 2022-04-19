@@ -22,13 +22,140 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    background: url(./images/bg-intro-desktop.png);
+    background-color: var(--Red);
+}
+
+.msg {
+    color: red;
+    font-size: 10px;
+    text-align: right;
+}
+
+/* WRAPPER */
+
+.wrapper {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LEFT */
+
+.main-container {
+    padding-right: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+}
+
+.main-container h1 {
+    margin-bottom: 2rem;
+    font-size: 50px;
+    line-height: 1;
+}
+
+/* RIGHT */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.form-container .trial {
+    width: 100%;
+    background-color: var(--Blue);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+}
+
+.form-container .trial strong {
+    font-weight: 600;
+}
+
+.form-container form {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 40px 40px 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-container form input {
+    margin-top: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 1px var(--Grayish-Blue) solid;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.form-container form input:active {
+    border-radius: 5px;
+    border: 1px var(--Dark-Blue) solid;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Dark-Blue);
+}
+
+.wrapper .form-container form button {
+    background-color: var(--Green);
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px var(--Green) solid;
 }
 
 
 
+.wrapper .form-container form button:hover {
 
+    opacity: 0.8;
+    border: 2px var(--Green) solid;
+    cursor: pointer;
+}
 
+.wrapper .form-container p {
+    margin-top: 20px;
+    font-size: 10px;
+    color: var(--Grayish-Blue);
+    font-weight: 600;
+}
 
+.wrapper .form-container p a {
+    color: var(--Red);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 
 .attribution {
     font-size: 11px;
