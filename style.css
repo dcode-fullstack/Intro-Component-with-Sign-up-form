@@ -32,6 +32,27 @@ body {
     text-align: right;
 }
 
+.f-name-msg,
+.l-name-msg,
+.email-msg,
+.pwd-msg {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.wrapper .submited {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
 /* WRAPPER */
 
 .wrapper {

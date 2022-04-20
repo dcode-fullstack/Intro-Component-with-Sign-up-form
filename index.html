@@ -23,14 +23,14 @@
         <div class="form-container">
             <div class="trial"><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
             <form action="">
-                <input type="text" placeholder="First Name">
-                <div class="f-name-msg msg"></div>
-                <input type="text" placeholder="Last Name">
-                <div class="l-name-msg msg"></div>
-                <input type="email" placeholder="Email Address">
-                <div class="email-msg msg"></div>
-                <input type="password" placeholder="Password">
-                <div class="pwd-msg msg"></div>
+                <input id="f-name" type="text" placeholder="First Name">
+                <div class="f-name-msg msg">First Name cannot be empty</div>
+                <input id="l-name" type="text" placeholder="Last Name">
+                <div class="l-name-msg msg">Last Name cannot be empty</div>
+                <input id="e-mail" type="email" placeholder="Email Address">
+                <div class="email-msg msg">Looks like this is not an email</div>
+                <input id="pwd" type="password" placeholder="Password">
+                <div class="pwd-msg msg">Password cannot be empty</div>
                 <button type="submit">Claim your free trial</button>
                 <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
 
@@ -40,7 +40,8 @@
         <footer>
             <p class="attribution">
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                Coded by <a href="#">Your Name Here</a>.
+                Coded by <a href="https://www.linkedin.com/in/diego-garcia-monje-641a8018a/">Diego -
+                    dcode-fullstack</a>.
             </p>
         </footer>
 
