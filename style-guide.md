@@ -11,23 +11,25 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Orange: hsl(25, 97%, 53%)
+- Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
 
 ### Neutral
 
-- White: hsl(0, 0%, 100%)
-- Light Grey: hsl(217, 12%, 63%)
-- Medium Grey: hsl(216, 12%, 54%)
-- Dark Blue: hsl(213, 19%, 18%)
-- Very Dark Blue: hsl(216, 12%, 8%)
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 15px
+- Font size: 16px
 
 ### Font
 
-- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
-- Weights: 400, 700
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 500, 600, 700
