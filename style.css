@@ -163,3 +163,41 @@ footer {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media(max-width: 790px) {
+    body {
+        background: url(./images/bg-intro-mobile.png);
+        background-color: var(--Red);
+    }
+
+    .wrapper {
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        display: block;
+        height: 935px;
+
+    }
+
+    .wrapper .main-container h1 {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .wrapper .main-container p {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .wrapper footer {
+        height: 15px;
+    }
+
+}
+
+@media(max-width: 674px) {
+    .wrapper .main-container p {
+        margin-bottom: 30px;
+    }
+}
