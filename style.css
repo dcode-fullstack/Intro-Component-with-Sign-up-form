@@ -53,6 +53,12 @@ body {
     text-align: center;
 }
 
+.error {
+    background: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95%, 0;
+}
+
 /* WRAPPER */
 
 .wrapper {
@@ -142,6 +148,7 @@ body {
 .wrapper .form-container form button {
     background-color: var(--Green);
     color: #fff;
+    font-weight: 600;
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;

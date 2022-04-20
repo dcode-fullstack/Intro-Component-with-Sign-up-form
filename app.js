@@ -21,29 +21,37 @@ function submitForm(e) {
         if (fName.value === '') {
             fNameMsg.classList.add('active');
             fName.style.border = '1px red solid';
+            fName.classList.add('error');
             setTimeout(() => fNameMsg.classList.remove('active'), 3000);
             setTimeout(() => fName.style.border = '1px hsl(246, 25%, 77%) solid', 3000);
+            setTimeout(() => fName.classList.remove('error'), 3000);
         }
 
         if (lName.value === '') {
             lNameMsg.classList.add('active');
             lName.style.border = '1px red solid';
+            lName.classList.add('error');
             setTimeout(() => lNameMsg.classList.remove('active'), 3000);
             setTimeout(() => lName.style.border = '1px hsl(246, 25%, 77%) solid', 3000);
+            setTimeout(() => lName.classList.remove('error'), 3000);
         }
 
         if (email.value === '') {
             emailMsg.classList.add('active');
             email.style.border = '1px red solid';
+            email.classList.add('error');
             setTimeout(() => emailMsg.classList.remove('active'), 3000);
             setTimeout(() => email.style.border = '1px hsl(246, 25%, 77%) solid', 3000);
+            setTimeout(() => email.classList.remove('error'), 3000);
         }
 
         if (pwd.value === '') {
             pwdMsg.classList.add('active');
             pwd.style.border = '1px red solid';
+            pwd.classList.add('error');
             setTimeout(() => pwdMsg.classList.remove('active'), 3000);
             setTimeout(() => pwd.style.border = '1px hsl(246, 25%, 77%) solid', 3000);
+            setTimeout(() => pwd.classList.remove('error'), 3000);
         }
 
 
